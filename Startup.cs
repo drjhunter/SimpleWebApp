@@ -32,7 +32,7 @@ namespace SimpleWebApp
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World 007!");
+                    await context.Response.WriteAsync("Hello World 008!");
                 });
             });
         }
